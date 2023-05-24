@@ -1,6 +1,5 @@
 # sms-spam
 
 
-
-https://069-103-121-pynew-app-8dubj9.streamlit.app/
+https://069-103-121-college-project-app-r85ytz.streamlit.app/
 
