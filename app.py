@@ -2,7 +2,6 @@ import streamlit as st
 import pickle
 import string
 import scipy
-import webbrowser
 import scipy.sparse._csr
 
 from nltk.corpus import stopwords
@@ -60,7 +59,3 @@ if st.button('Predict'):
         st.header("Not Spam")
         
 st.markdown("[Provide Feedback](https://forms.gle/iHq23nuBiQge3DL4A)")
-url = 'https://forms.gle/iHq23nuBiQge3DL4A'
-
-if st.button('Open browser'):
-    webbrowser.open_new_tab(url)
