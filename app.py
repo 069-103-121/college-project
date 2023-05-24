@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import string
 import scipy
+import webbrowser
 import scipy.sparse._csr
 
 from nltk.corpus import stopwords
